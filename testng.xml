@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/priya/IdeaProjects/ApiTesting/src/test/java">
+        <classes>
+            <class name="ApiTest.TC01_Functionality_Working">
+                <methods>
+                    <include name="apiWorking"/>
+                </methods>
+            </class>
+            <class name="ApiTest.TC02_GET_VALID_ENDPOINTS">
+                <methods>
+                    <include name="Tc02"/>
+                </methods>
+            </class>
+            <class name="ApiTest.TC03_POST_request">
+                <methods>
+                    <include name="POST_request"/>
+                </methods>
+            </class>
+            <class name="ApiTest.TC04_PUTRequest">
+                <methods>
+                    <include name="putRequest"/>
+                </methods>
+            </class>
+            <class name="ApiTest.TC05_DELETE">
+                <methods>
+                    <include name="delete"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
